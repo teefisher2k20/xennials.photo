@@ -13,7 +13,13 @@
     "react-dom": "^19.1.0",
     "@google/genai": "^1.10.0",
     "react-image-crop": "^11.0.6",
-    "marked": "^13.0.0"
+    "marked": "^13.0.0",
+    "framer-motion": "^11.2.12",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/engine": "^3.5.0",
+    "@tsparticles/slim": "^3.5.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
