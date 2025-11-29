@@ -22,6 +22,7 @@ import VoiceChatPanel from './components/VoiceChatPanel';
 import TTSPanel from './components/TTSPanel';
 import FitCheckPanel from './components/FitCheckPanel'; // Import FitCheckPanel
 import { TShirtIcon } from './components/icons'; // Import TShirtIcon
+import { SplashCursor } from './components/ui/splash-cursor';
 
 // Helper to convert a data URL string to a File object
 const dataURLtoFile = (dataurl: string, filename: string): File => {
@@ -725,6 +726,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen text-gray-100 flex flex-col">
+      <SplashCursor />
       <Header />
       <div className="w-full bg-gray-800/80 border-b border-gray-700/80 p-2 flex flex-wrap justify-center gap-2 backdrop-blur-sm sticky top-[72px] z-40">
         {[
@@ -732,7 +734,7 @@ const App: React.FC = () => {
           { id: 'imageGenerator', name: 'Image Generator', icon: <RocketLaunchIcon className="w-5 h-5 mr-2" /> },
           { id: 'videoGenerator', name: 'Video Generator', icon: <VideoCameraIcon className="w-5 h-5 mr-2" /> },
           { id: 'videoAnalyzer', name: 'Video Analyzer', icon: <CommandLineIcon className="w-5 h-5 mr-2" /> },
-          { id: 'fitCheck', name: 'Fit Check', icon: <TShirtIcon className="w-5 h-5 mr-2" /> }, {/* Add Fit Check button */},
+          { id: 'fitCheck', name: 'Fit Check', icon: <TShirtIcon className="w-5 h-5 mr-2" /> },
           { id: 'textChat', name: 'Text Chat', icon: <ChatBubbleLeftRightIcon className="w-5 h-5 mr-2" /> },
           { id: 'voiceChat', name: 'Voice Chat', icon: <MegaphoneIcon className="w-5 h-5 mr-2" /> },
           { id: 'ttsGenerator', name: 'TTS', icon: <MegaphoneIcon className="w-5 h-5 mr-2" /> },
