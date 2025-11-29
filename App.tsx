@@ -732,7 +732,7 @@ const App: React.FC = () => {
           { id: 'imageGenerator', name: 'Image Generator', icon: <RocketLaunchIcon className="w-5 h-5 mr-2" /> },
           { id: 'videoGenerator', name: 'Video Generator', icon: <VideoCameraIcon className="w-5 h-5 mr-2" /> },
           { id: 'videoAnalyzer', name: 'Video Analyzer', icon: <CommandLineIcon className="w-5 h-5 mr-2" /> },
-          { id: 'fitCheck', name: 'Fit Check', icon: <TShirtIcon className="w-5 h-5 mr-2" /> }, {/* Add Fit Check button */}
+          { id: 'fitCheck', name: 'Fit Check', icon: <TShirtIcon className="w-5 h-5 mr-2" /> }, {/* Add Fit Check button */},
           { id: 'textChat', name: 'Text Chat', icon: <ChatBubbleLeftRightIcon className="w-5 h-5 mr-2" /> },
           { id: 'voiceChat', name: 'Voice Chat', icon: <MegaphoneIcon className="w-5 h-5 mr-2" /> },
           { id: 'ttsGenerator', name: 'TTS', icon: <MegaphoneIcon className="w-5 h-5 mr-2" /> },
